@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c4a3b7a-e643-4eee-9249-51e2a688817b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/A_man_in_the_world.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Knowledge/foton.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Knowledge/foton_myth.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Knowledge/hero.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Knowledge/idea.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Knowledge/interaction_user.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Knowledge/interaction_world.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Knowledge/milky_way.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Knowledge/style_harmony.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="7c4a3b7a-e643-4eee-9249-51e2a688817b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
