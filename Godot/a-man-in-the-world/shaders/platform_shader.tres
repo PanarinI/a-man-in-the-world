@@ -1,0 +1,24 @@
+[gd_resource type="Shader" format=3 uid="uid://bc5iyyw7ifhx"]
+
+[resource]
+code = "shader_type canvas_item;
+
+uniform float perspective_strength : hint_range(0.0, 3.0) = 0.5; // Степень перспективы
+uniform float vanishing_point_x : hint_range(-1.0, 2.0) = 0.5;    // Горизонтальная точка схода
+uniform float vanishing_point_y : hint_range(-1.0, 2.0) = 0.8;    // Вертикальная точка схода
+
+void fragment() {
+    vec2 uv = UV; // Используем UV текстуры
+    
+    // Смещение для создания перспективы
+    uv.x += (uv.x - vanishing_point_x) * perspective_strength * (1.0 - uv.y);
+    uv.y += (uv.y - vanishing_point_y) * perspective_strength * (1.0 - uv.y);
+
+    // Проверяем границы UV, чтобы избежать проблем с отображением
+    if (uv.x < 0.0 || uv.x > 1.0 || uv.y < 0.0 || uv.y > 1.0) {
+        discard; // Убираем пиксели за пределами текстуры
+    } else {
+        COLOR = texture(TEXTURE, uv);
+    }
+}
+"

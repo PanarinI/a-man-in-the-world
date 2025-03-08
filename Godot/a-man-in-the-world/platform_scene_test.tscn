@@ -1,0 +1,37 @@
+[gd_scene load_steps=5 format=3 uid="uid://b884wtkvqjvd3"]
+
+[ext_resource type="Script" path="res://scripts/world.gd" id="1_272r7"]
+[ext_resource type="PackedScene" uid="uid://cq47asf4townt" path="res://char.tscn" id="2_4v6ky"]
+[ext_resource type="PackedScene" uid="uid://cj7ero6f2d2xk" path="res://platform_3d_test.tscn" id="3_1d45t"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_x4v1s"]
+size = Vector2(95, 224)
+
+[node name="World" type="Node2D"]
+script = ExtResource("1_272r7")
+
+[node name="Char" parent="." instance=ExtResource("2_4v6ky")]
+z_index = 1
+position = Vector2(904, 288)
+metadata/_edit_group_ = true
+
+[node name="Camera2D" type="Camera2D" parent="Char"]
+position = Vector2(-232, 176)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Char"]
+position = Vector2(0.5, -1)
+shape = SubResource("RectangleShape2D_x4v1s")
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="."]
+offset_left = -112.0
+offset_top = -104.0
+offset_right = 2730.0
+offset_bottom = 568.0
+scale = Vector2(0.51386, 1.24842)
+
+[node name="SubViewport" type="SubViewport" parent="SubViewportContainer"]
+handle_input_locally = false
+size = Vector2i(2842, 672)
+render_target_update_mode = 4
+
+[node name="Platform" parent="SubViewportContainer/SubViewport" instance=ExtResource("3_1d45t")]

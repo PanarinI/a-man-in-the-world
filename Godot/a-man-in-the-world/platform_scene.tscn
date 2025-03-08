@@ -1,0 +1,43 @@
+[gd_scene load_steps=6 format=3 uid="uid://xcaf6kv6fq7f"]
+
+[ext_resource type="Script" path="res://scripts/world.gd" id="1_c75oj"]
+[ext_resource type="PackedScene" uid="uid://cq47asf4townt" path="res://char.tscn" id="2_20yfg"]
+[ext_resource type="Texture2D" uid="uid://tfm2joydbyrv" path="res://assets/texture_1.webp" id="4_yiu54"]
+[ext_resource type="PackedScene" uid="uid://c48d8lwvmgxl4" path="res://platform_3d.tscn" id="5_4j4t4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_x4v1s"]
+size = Vector2(95, 224)
+
+[node name="World" type="Node2D"]
+script = ExtResource("1_c75oj")
+
+[node name="Char" parent="." instance=ExtResource("2_20yfg")]
+z_index = 1
+position = Vector2(872, 184)
+metadata/_edit_group_ = true
+
+[node name="Camera2D" type="Camera2D" parent="Char"]
+position = Vector2(-232, 176)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Char"]
+position = Vector2(0.5, -1)
+shape = SubResource("RectangleShape2D_x4v1s")
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="."]
+offset_right = 1920.0
+offset_bottom = 1080.0
+scale = Vector2(0.610175, 0.592537)
+stretch = true
+
+[node name="SubViewport" type="SubViewport" parent="SubViewportContainer"]
+handle_input_locally = false
+size = Vector2i(1920, 1080)
+size_2d_override_stretch = true
+render_target_update_mode = 4
+
+[node name="Node3D" parent="SubViewportContainer/SubViewport" instance=ExtResource("5_4j4t4")]
+
+[node name="Texture1" type="Sprite2D" parent="."]
+position = Vector2(56, 56)
+scale = Vector2(0.107422, 0.107422)
+texture = ExtResource("4_yiu54")

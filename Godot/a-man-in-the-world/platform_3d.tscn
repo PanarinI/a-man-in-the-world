@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3 uid="uid://c48d8lwvmgxl4"]
+
+[ext_resource type="Texture2D" uid="uid://de7kwyk5xtb8s" path="res://assets/DALL·E 2025-01-11 03.52.36 - A seamless, flat, top-down pixel art texture of a cracked and smooth surface. The texture features sparse, chaotic, and sharp cracks across a complete.webp" id="1_7g5e2"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_qt7ku"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4833p"]
+albedo_texture = ExtResource("1_7g5e2")
+
+[node name="Node3D" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(22.475, 0, 0, 0, 22.475, 0, 0, 0, 22.475, 23.8122, 0.945955, -17.0132)
+mesh = SubResource("PlaneMesh_qt7ku")
+surface_material_override/0 = SubResource("StandardMaterial3D_4833p")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(2.09, 0, 0, 0, 2.0665, 0.312528, 0, -0.312528, 2.0665, 21.398, 3.853, 0.47)
+current = true
+fov = 44.5
+size = 12.47
+near = 0.001
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.895146, 0.434421, 0.0999597, -0.0992406, -0.412819, 0.90539, 0.434586, 0.800536, 0.412646, 20.0497, 4.82914, -1.4667)
+light_energy = 0.577
+light_indirect_energy = 4.556
+light_volumetric_fog_energy = 0.0
+light_angular_distance = 21.82

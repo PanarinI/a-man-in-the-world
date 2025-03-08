@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c4a3b7a-e643-4eee-9249-51e2a688817b" name="Changes" comment="" />
+    <list default="true" id="7c4a3b7a-e643-4eee-9249-51e2a688817b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Knowledge/concept.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Knowledge/mechanics.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Knowledge/mirror_scene.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visuals/3e1ed478-5744-4a3f-872e-c6ba3abe489a.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visuals/A minimalist pixel-art style scene set in a vast dark space. A small glowing pixelated orb of light floats before an abstract rectangular mirror with .webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visuals/DALL·E 2024-12-15 01.40.04 - A series of different minimalist pixel-art styles exploring various perspectives and designs for a small glowing light orb character in a vast dark sp.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visuals/DALL·E 2024-12-15 01.41.26 - A series of different minimalist pixel-art styles exploring various perspectives and designs for a small glowing light orb character in a vast dark sp.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visuals/DALL·E 2024-12-15 01.49.38 - A minimalist pixel-art scene inspired by the style of the game 'Gods Will Be Watching'. The scene features a glowing orb character standing next to a .webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visuals/DALL·E 2024-12-15 01.59.41 - A minimalist pixel-art scene inspired by the style of the game 'Gods Will Be Watching'. The scene features a glowing orb character standing next to a .webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visuals/DALL·E 2024-12-15 02.07.39 - A minimalist pixel-art scene inspired by 'Gods Will Be Watching,' with a small glowing orb character floating before a fragmented, jagged mirror in a .webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visuals/DALL·E 2024-12-15 02.27.04 - A pixel-art scene inspired by the original 'Gods Will Be Watching' aesthetic, featuring a glowing orb character floating near a towering, jagged, frag.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visuals/DALL·E 2024-12-15 03.03.33 - A minimalist pixel-art scene inspired by contemplative and introspective gameplay. The glowing orb character is now abstract and undefined, appearing .webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visuals/DALL·E 2024-12-15 03.08.34 - A minimalist pixel-art scene inspired by contemplative and introspective gameplay. The glowing orb character with subtle hints of humanity, resembling.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visuals/DALL·E 2024-12-15 03.12.05 - A minimalist pixel-art scene inspired by contemplative and introspective gameplay. The glowing orb character is now a simple sphere with faint, small .webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visuals/DALL·E 2024-12-15 03.16.53 - A minimalist pixel-art scene inspired by contemplative and introspective gameplay. The glowing orb character is a simple sphere with faint, small eyes.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visuals/DALL·E 2024-12-15 15.04.31 - A minimalist pixel-art scene inspired by contemplative and meditative visual styles. The scene features a large rectangular mirror with a simple, slig.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visuals/bf5f66a2-6bcc-4eb4-bd5b-c941fbc6324f.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visuals/mirror.webp" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,23 +41,37 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;PanarinI&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PanarinI/a-man-in-the-world.git&quot;,
+    &quot;accountId&quot;: &quot;ce6b9561-9eba-433e-8efc-1ae64214e4c2&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2qCgSzFzQBTs0wItvoSLe2kAC23" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.get_balance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/PythonProject/A_man_in_the_world&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\PythonProject\A_man_in_the_world\Knowledge" />

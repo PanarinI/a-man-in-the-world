@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://cj7ero6f2d2xk"]
+
+[ext_resource type="Texture2D" uid="uid://ud7ifc4ex5ro" path="res://assets/DALL·E 2025-01-11 03.55.27 - A seamless, flat, top-down pixel art texture of a cracked, smooth surface viewed from a close distance (1-2 meters). The texture features large, spars.webp" id="1_rs82t"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sxyvk"]
+albedo_texture = ExtResource("1_rs82t")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_5jdio"]
+material = SubResource("StandardMaterial3D_sxyvk")
+
+[node name="Platform" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.000347257, -0.0201598, 0.0158994)
+mesh = SubResource("PlaneMesh_5jdio")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.927184, 0.374607, 0, -0.374607, 0.927184, 0, 0.025, 0.055)
+current = true
+near = 0.018
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
