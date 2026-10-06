@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scena_po_raspisaniyu.gd" id="1_skript"]
+
+[node name="Scena2" type="Node2D"]
+script = ExtResource("1_skript")
+papka = "res://scena2"
